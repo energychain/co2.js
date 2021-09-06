@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const CO2 = require('./src/co2')
 
 const co2Emission = new CO2();
