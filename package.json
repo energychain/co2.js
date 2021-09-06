@@ -1,7 +1,7 @@
 {
-  "name": "@tgwf/co2",
-  "version": "0.6.1",
-  "description": "Work out the co2 of your digital services",
+  "name": "co2-compensator",
+  "version": "0.1.1",
+  "description": "Work out and offset the co2 of your digital services",
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
@@ -12,13 +12,15 @@
   "keywords": [
     "sustainability",
     "carbon",
-    "the",
-    "green",
-    "web",
+    "offset",
+    "compensate",
     "foundation",
     "co2"
   ],
-  "author": "Chris Adams",
+  "bin": {
+    "myapp": "./cli.js"
+  },
+  "author": "STROMDAO GmbH",
   "license": "Apache-2.0",
   "devDependencies": {
     "@tgwf/url2green": "^0.3.0",
@@ -27,10 +29,10 @@
     "eslint-plugin-jest": "^23.8.2",
     "eslint-plugin-prettier": "^3.1.2",
     "jest": "^25.1.0",
+    "minimist": ">=1.2.2",
     "np": "^5.2.1",
     "pagexray": "^2.5.9",
-    "prettier": "^1.19.1",
-    "minimist": ">=1.2.2"
+    "prettier": "^1.19.1"
   },
   "np": {
     "yarn": false
@@ -39,10 +41,11 @@
     "access": "public"
   },
   "dependencies": {
+    "axios": "^0.21.4",
     "debug": "^4.1.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thegreenwebfoundation/co2.js.git"
+    "url": "https://github.com/energychain/co2.js.git"
   }
 }

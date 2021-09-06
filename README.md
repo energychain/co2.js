@@ -1,6 +1,6 @@
-# CO2
+Original Readme of CO2 JS Package of The Green Web Foundation
 
-<img src="https://travis-ci.org/thegreenwebfoundation/co2.js.svg?branch=master" />
+# CO2
 
 We know computers use electricity, and because most of the electricity we use comes from burning fossil fuels to generate, there is an environmental cost to every upload and download we make over the internet.
 
@@ -16,13 +16,18 @@ If you want to build this kind of environmental information into your own softwa
 
 This is open source software, with all the guarantees associated, so if you want professional advice, to a deadline, and you have a budget please see the services offered by the [Green Web Foundation][tgwf-services].
 
-[soberDigital]: https://theshiftproject.org/en/lean-ict-2/
-[sitespeed.io]: https://sitespeed.io/
-[tgwf]: https://www.thegreenwebfoundation.org/
-[tgwf-services]: https://www.thegreenwebfoundation.org/services/
+## Installation
+```shell
+npm i -g co2-compensator
+```
 
+## Usage
 
-## Usage 
+### Comand Line (CLI)
+```shell
+co2-compensator <MB>  
+```
+Specify the MB to compensate.
 
 ### Calculating emissions per byte
 
@@ -92,4 +97,3 @@ Life cycle figures do exist, but they are very difficult to do well. If you're i
 # Licenses
 
 Apache 2.0
-

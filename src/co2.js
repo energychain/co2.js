@@ -21,6 +21,18 @@ class CO2 {
     this.options = options;
   }
 
+  compensationOfferOnline(co2ge) {
+    return "https://co2offset.io/?co2="+co2ge;
+  }
+
+  async compensationOffer(co2ge) {
+    const axios = require("axios");
+    const responds = await axios.get("https://api.corrently.io/v2.0/co2/price?co2="+co2ge);
+    return responds.data;
+  }
+
+
+
   perByte(bytes, green) {
     // return a CO2 figure for energy used to shift the corresponding
     // the data transfer.
