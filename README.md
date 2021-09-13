@@ -1,5 +1,8 @@
 Original Readme of CO2 JS Package of The Green Web Foundation
 
+[![CO2Offset](https://api.corrently.io/v2.0/ghgmanage/statusimg?host=co2.js&svg=1)](https://co2offset.io/badge.html?host=co2.js)
+
+
 # CO2
 
 We know computers use electricity, and because most of the electricity we use comes from burning fossil fuels to generate, there is an environmental cost to every upload and download we make over the internet.
