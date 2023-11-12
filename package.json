@@ -41,7 +41,7 @@
     "access": "public"
   },
   "dependencies": {
-    "axios": "^0.21.4",
+    "axios": "^1.6.0",
     "debug": "^4.1.1"
   },
   "repository": {
